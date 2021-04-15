@@ -177,17 +177,6 @@ input.transparent-input{
 #grid {
   min-height: 100vh;
 }
-#feature {
-  min-height: 100vh;
-  margin-top: 100px;
-  padding: 20%;
-  color: #000;
-
-  background-image: url(../img/bg_feature.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .grid-item {
   width: 370px;
@@ -255,12 +244,49 @@ input.transparent-input{
   text-align: center;
 }
 
+#feature {
+  min-height: 100vh;
+  margin-top: 100px;
+}
+.story-item {
+  padding: 25% 20%;
+  color: #000;
+
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+}
+.close {
+  margin: 25% 25% 0 0;
+}
+.story-title {
+  margin: 20px auto;
+}
 audio.audio {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 250px;
 }
 
+/* Create unique backgrounds */
+.feature-bg-1 {
+  background-image: url(../img/bg_feature_1-min.png);
+}
+.feature-bg-2 {
+  background-image: url(../img/bg_feature_2-min.png);
+}
+.feature-bg-3 {
+  background-image: url(../img/bg_feature_3-min.png);
+}
+.feature-bg-4 {
+  background-image: url(../img/bg_feature_4-min.png);
+}
+.feature-bg-5 {
+  background-image: url(../img/bg_feature_5-min.png);
+}
+
+/* Create unique backgrounds */
 .car-r1c1 {
   background-position: 0 0;
 }

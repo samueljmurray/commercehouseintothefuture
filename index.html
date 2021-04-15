@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/normalize.css">
 
-  <link rel="stylesheet" href="css/main.css?v1">
+  <link rel="stylesheet" href="css/main.css?v2">
   <style>
     @import url("https://use.typekit.net/zrf5ehr.css");
   </style>
@@ -75,33 +75,18 @@
             <a data-action="aya-story" class="story car car-r3c3">
               <p class="name">Aya</p>
             </a>
-            <audio preload="none" class="audio" id="aya-story">
-              <source src="./audio/primary/Aaron -  - Primary.webm">
-              <source src="./audio/primary/Aaron -  - Primary.mp3">
-              Your browser does not support the audio element.
-            </audio>
           </div>
 
           <div class="grid-item">
             <a data-action="ismail-story" class="story car car-r3c3">
               <p class="name">Ismail</p>
             </a>
-            <audio preload="none" class="audio" id="ismail-story">
-              <source src="./audio/primary/Aaron -  - Primary.webm">
-              <source src="./audio/primary/Aaron -  - Primary.mp3">
-              Your browser does not support the audio element.
-            </audio>
           </div>
 
           <div class="grid-item">
             <a data-action="demi-story" class="story car car-r3c3">
               <p class="name">Demi</p>
             </a>
-            <audio preload="none" class="audio" id="demi-story">
-              <source src="./audio/primary/Aaron -  - Primary.webm">
-              <source src="./audio/primary/Aaron -  - Primary.mp3">
-              Your browser does not support the audio element.
-            </audio>
           </div>
 
           <div class="grid-item">
@@ -114,15 +99,65 @@
         </div>
 
         <div id="feature" class="hidden" tabindex="-1">
+          <button type="button" class="close" aria-label="Close">
+            Close <span aria-hidden="true">&times;</span>
+          </button>
 
           <!-- BEGINNING OF STORIES -->
-          <div id="sinead-story" class="story-item hidden">
+          <div id="sinead-story" class="story-item feature-bg-5 hidden">
             <h2 class="story-title display-3">
-              <span class="name">Sinead</span> ~
-              <span class="title">My future</span>
+              <span class="name">Sinead</span>
             </h2>
             <div class="story-body">
-              asdfasdfasdfasf
+              <p>I have arrived in the year 2092 and it is better than I thought it would be. On Saturday, a stunning sunny day with a bright blue sky and hardly any clouds, I woke up and smelt the crisp fresh air. I felt great! I glided out of my house as the sizzling sun was gazing down at me and people were greeting me with big smiles on their faces.</p>
+
+              <p>A moment later, I heard the silent sound of drifting cars and the sprinkling sound of the cold clear waterfall that fills the air with clear and clean oxygen for all to breathe.</p>
+
+              <p>Bright green trees fluttering in the breeze, shiny red apples hanging from the branches like Christmas decorations. Little rugrats dancing in the grass in time with the happy music.
+
+              <p>This place is beautiful.</p>
+
+              <p>Far away in the distance I saw an awful lot of Tottenham and arsenal supporters. They are competitive but friendly, cheering on the shiny metallic robot players who move silently fast like the wind.</p>
+            </div>
+          </div>
+          <div id="aya-story" class="story-item feature-bg-2 hidden">
+            <h2 class="story-title display-3">
+              <span class="name">Aya</span>
+            </h2>
+            <audio preload="none" class="audio">
+              <source src="./audio/Aya.mp3">
+              Your browser does not support the audio element.
+            </audio>
+            <div class="story-body">
+              <p>The year is 6066 and technology is much more advanced now. Humans have magical flying hoverboards and you can hear the buzzing sounds of robots all around. The smell of the sweet perfume of the magnolias fills your nose. Far away in the distance I can see the vast shop escalators and a portable elevator! And I can hear the harmonious sound of the singing trees and kids gliding in flying bubbles.</p>
+
+              <p>The humans are very peaceful and respect their environment and other people. They are joyful and harmonious and next to the road I can see two joyful mums, pushing their hover buggies, and in the corner of my eye I can see hovering babies giggling loudly. Babies here have to go to school as they are very intelligent as soon as they’re born.</p>
+
+              <p>All children speak Italian, no swearing, no fights, no drinking or drugs.</p>
+
+              <p>Football is still popular, but it is all Virtual Reality Football!</p>
+
+              <p>Just a moment later I see a Robot helping an old lady cross the road. This society is respectful and fair. The world is clean with no pollution. There are over 200 drones on every street, they detect every object you’re holding and if they detect something suspicious they will call the police straight away.</p>
+
+              <p>Everyone’s house is also fire proof!</p>
+            </div>
+          </div>
+          <div id="ismail-story" class="story-item feature-bg-3 hidden">
+            <h2 class="story-title display-3">
+              <span class="name">Ismail</span>
+            </h2>
+            <audio preload="none" class="audio">
+              <source src="./audio/Ismail.mp3">
+              Your browser does not support the audio element.
+            </audio>
+            <div class="story-body">
+              <p>All the way in the distance, at the viewpoint at Alexandra Palace, I can see a demolished cheese grater. I can see London burning. Loud siren alarm me as I painfully cover my ears. SCREECHING like a crying baby.</p>
+
+              <p>Far far underground, humans are devouring canned army food in a raggedy rusty bunker. 1,600 smelly people live in the gloomy shelter, spread out like in a desert. The hungry delusional people don’t have anything to eat, eating dog faeces and boiled rat.</p>
+
+              <p>Whilst I walk by what was Westfield shopping centre the shutters are all down so I can’t see the rampage behind them. The families moved here a year ago. I look at the Westfield sign again and see it’s been demolished.</p>
+
+              <p>Nothing to do here but hide.</p>
             </div>
             <audio preload="none" class="audio">
               <source src="./audio/Sinead -  .webm">
@@ -130,20 +165,32 @@
               Your browser does not support the audio element.
             </audio>
           </div>
-
-          <div id="sasho-story" class="story-item hidden">
+          <div id="demi-story" class="story-item feature-bg-1 hidden">
             <h2 class="story-title display-3">
-              <span class="name">Sasho</span> ~
-              <span class="title">Our future</span>
+              <span class="name">Demi</span>
             </h2>
             <div class="story-body">
-              asdfasdfasdfasf
+              <p>I have arrived in the year 3021 and I immediately hear birds chirping.</p>
+
+              <p>Walking along, I notice I cannot hear any traffic because the vehicles are electric and silent. The electric cars move silently, as smooth as silk, and creating clean air for all.</p>
+
+              <p>Earlier today I walked past the river and heard the water flowing freely. Gliding past the road peacefully the wind passed my ear wildly, but it’s strangely calm still.</p>
+
+              <p>Here, in our new world it’s like paradise. It is a peaceful and idyllic place where everyone does the right thing and follows the law. People are hardworking and kind to one another. Police roam up and down the streets making people feel safe and secure. They aren’t intimidated in any way.</p>
             </div>
-            <audio preload="none" class="audio">
-              <source src="./audio/Sasho -  .webm">
-              <source src="./audio/Sasho -  .mp3">
-              Your browser does not support the audio element.
-            </audio>
+          </div>
+
+          <div id="sasho-story" class="story-item feature-bg-4 hidden">
+            <h2 class="story-title display-3">
+              <span class="name">Sasho</span>
+            </h2>
+            <div class="story-body">
+              <p>I have arrived in the year 3021 and I can see people are dirty and grimy as if they are homeless. However, the city is as beautiful as the blue sky.</p>
+
+              <p>Directly in front of me is grass as green as an emerald. It is as quiet as a countryside field at night time.</p>
+
+              <p>The trains are so far away we can see them glimmering in the distance, but I can’t hear them.</p>
+            </div>
           </div>
           <!-- END OF STORIES -->
 
@@ -166,7 +213,6 @@
   <!-- Script tags -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script async src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script async src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
   <script async src="js/plugins.js"></script>
   <script async src="js/main.js"></script>
 </body>
