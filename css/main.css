@@ -249,7 +249,7 @@ input.transparent-input{
   margin-top: 100px;
 }
 .story-item {
-  padding: 25% 20%;
+  padding: 25% 30%;
   color: #000;
 
   background-position: center top;
@@ -259,10 +259,16 @@ input.transparent-input{
 }
 .close {
   margin: 25% 25% 0 0;
+  font-size: 32px;
 }
 .story-title {
   margin: 20px auto;
 }
+
+.story-body {
+  padding-top: 10%;
+}
+
 audio.audio {
   display: block;
   margin: 20px auto;

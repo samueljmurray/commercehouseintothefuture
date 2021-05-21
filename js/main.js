@@ -29,7 +29,6 @@ function playStory(element, e) {
 
         if (paused) {
             audio.currentTime = 0;
-            audio.play()
             audio.controls = true;
         } else {
             audio.pause()
